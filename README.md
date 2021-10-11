@@ -1,13 +1,13 @@
-import cv2 , time
+     import cv2 , time
 
-first_frame = None
-video = cv2.VideoCapture(0)   #Creeaza o captura video pentru a inregistra.
+      first_frame = None
+      video = cv2.VideoCapture(0)   #Creeaza o captura video pentru a inregistra.
                               #(0)--camera web incorporata
 
-while True:
+     while True:
 
- '''check=variabila de tip boolean, returneaza adevarat daca este posibila citirea obiectului VideoCapture'''
- '''frame=matice a pachetului NumPy si reprezinta prima imagine facuta de captura video'''
+           '''check=variabila de tip boolean, returneaza adevarat daca este posibila citirea obiectului VideoCapture'''
+           '''frame=matice a pachetului NumPy si reprezinta prima imagine facuta de captura video'''
 
 
 
@@ -64,8 +64,8 @@ while True:
     if key == ord('q'):           #va iesi din loop odata ce utilizatorul va apasa tasta'q'
         break
 
-video.release()                   # va inchide inchide camera
-cv2.destroyAllWindows             #va inchide ferestrele deschise
+   video.release()                   # va inchide inchide camera
+   cv2.destroyAllWindows             #va inchide ferestrele deschise
 
 
 
