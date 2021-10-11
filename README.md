@@ -64,8 +64,8 @@
     if key == ord('q'):           #va iesi din loop odata ce utilizatorul va apasa tasta'q'
         break
 
-   video.release()                   # va inchide inchide camera
-   cv2.destroyAllWindows             #va inchide ferestrele deschise
+       video.release()                   # va inchide inchide camera
+       cv2.destroyAllWindows             #va inchide ferestrele deschise
 
 
 
